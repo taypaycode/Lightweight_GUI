@@ -1,0 +1,10 @@
+^C:\USERS\TM-9X\ONEDRIVE\DESKTOP\CODING PROJECTS\LOW-LEVEL PROGRAMMING PROJECTS\LIGHTWEIGHT_GUI\BUILD\CMAKEFILES\AA78EC13A58CCAB3AD24A9D52BABA3B7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui" "-BC:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build/LightGUI.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

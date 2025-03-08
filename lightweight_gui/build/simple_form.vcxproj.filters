@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\TM-9X\OneDrive\Desktop\Coding Projects\Low-Level Programming Projects\lightweight_gui\examples\simple_form.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\TM-9X\OneDrive\Desktop\Coding Projects\Low-Level Programming Projects\lightweight_gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{99C12869-74FE-3E5C-AF57-C9B08753B94C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

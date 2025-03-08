@@ -1,0 +1,5 @@
+C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build/CMakeFiles/lightgui.dir
+C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build/CMakeFiles/simple_form.dir
+C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build/CMakeFiles/INSTALL.dir
+C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build/CMakeFiles/ZERO_CHECK.dir
