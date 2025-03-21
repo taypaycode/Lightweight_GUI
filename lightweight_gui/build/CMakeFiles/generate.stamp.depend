@@ -11,6 +11,8 @@ C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacro
 C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/MSVC-C.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindGLEW.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenGL.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake
@@ -24,6 +26,7 @@ C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC-C.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/SelectLibraryConfigurations.cmake
 C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/CMakeLists.txt
 C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build/CMakeFiles/4.0.0-rc3/CMakeCCompiler.cmake
 C:/Users/TM-9X/OneDrive/Desktop/Coding Projects/Low-Level Programming Projects/lightweight_gui/build/CMakeFiles/4.0.0-rc3/CMakeRCCompiler.cmake

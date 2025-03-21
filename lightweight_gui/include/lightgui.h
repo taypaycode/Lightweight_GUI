@@ -77,7 +77,8 @@ typedef enum {
     LG_WIDGET_BUTTON,
     LG_WIDGET_LABEL,
     LG_WIDGET_TEXTFIELD,
-    LG_WIDGET_CHECKBOX,
+    LG_WIDGET_CANVAS,  /* New canvas widget type for custom rendering */
+    LG_WIDGET_CHECKBOX, /* Future implementation */
     LG_WIDGET_SLIDER,
     LG_WIDGET_PANEL
 } LG_WidgetType;
@@ -461,6 +462,50 @@ void LG_DestroyWidget(LG_WidgetHandle widget);
  * @param user_data User data to pass to the callback
  */
 void LG_SetEventCallback(LG_WindowHandle window, LG_EventCallback callback, void* user_data);
+
+/**
+ * @brief Create a canvas widget for custom rendering
+ * 
+ * @param window The window to add the canvas to
+ * @param x The x position
+ * @param y The y position
+ * @param width The width
+ * @param height The height
+ * @return The canvas widget handle, or NULL on failure
+ */
+LG_WidgetHandle LG_CreateCanvas(LG_WindowHandle window, int x, int y, int width, int height);
+
+/**
+ * @brief Get the rendering context for a canvas
+ * 
+ * This retrieves platform-specific rendering information for the canvas.
+ * The returned void pointer must be cast to the appropriate type based on the platform:
+ * - Windows: HWND
+ * - macOS: NSView*
+ * - Linux: Window (X11)
+ * 
+ * @param canvas The canvas widget
+ * @return A platform-specific pointer to the rendering context, or NULL on failure
+ */
+void* LG_GetCanvasContext(LG_WidgetHandle canvas);
+
+/**
+ * @brief Notify the framework that the canvas has been updated
+ * 
+ * Call this after performing custom rendering to ensure the changes are displayed.
+ * 
+ * @param canvas The canvas widget
+ */
+void LG_UpdateCanvas(LG_WidgetHandle canvas);
+
+/**
+ * @brief Check if two colors are equal
+ * 
+ * @param a The first color
+ * @param b The second color
+ * @return true if the colors are equal, false otherwise
+ */
+bool LG_ColorEquals(LG_Color a, LG_Color b);
 
 #ifdef __cplusplus
 }
